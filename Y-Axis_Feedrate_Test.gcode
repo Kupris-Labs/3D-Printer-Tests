@@ -12,7 +12,7 @@
 
 G28 ; Move toolhead to origin (or home X, Y, Z)
 G92 E0.0 ; Reset the extruder position to 0mm
-G1 X100 Z2 ; Move hotend nozzle to Z position of 0.2mm
+G1 X100 Z20 ; Move hotend nozzle to Z position of 20mm
 G90 ; Set to absolute positioning as opposed to relative
 
 ; ### Test Y feedrate settings
